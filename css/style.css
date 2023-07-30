@@ -1,0 +1,234 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/inter-v12-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v12-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  *, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    height: 100%;
+  }
+
+  body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 24.17px; 
+    color:Gray 2;
+    font-weight: 400;
+  }
+
+  .container{
+    width: 100%;
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px   ;
+  }
+  main{
+    flex-grow: 1;
+  }
+
+  ul, ol{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  img{
+    object-fit: cover;
+    display: flex;
+  }
+  
+  .header-site-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header{
+    background-color: #1391CEB2;
+    ;
+  }
+  /* .site-logo {
+  }
+  .site-logo__imge {
+  }
+  .sitenav {
+  } */
+  .sitenav__list {
+    display: flex;
+gap: 35px;
+  }
+/* color: #25468A; */
+
+  
+  .sitenav__item {
+ -color: #25468A;
+  }
+  /* .sitenav__link {
+  } */
+  .header-dowloand {
+    background-color: #FFFFFF;
+    padding: 9px 16px ;
+    border-radius: 24px;
+    color: black;
+    transition: 0.3s;
+  }
+
+  .header-dowloand:hover{
+    background-color: black;
+    color: #FFFFFF;
+  }
+
+  /* .sitenav__list:hover{
+    color: #FFFFFF;
+  } */
+  .sitenav__item:hover{
+    color: #FFFFFF;
+  }
+
+  .heder__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 98px;
+    padding-bottom: 49px; ;
+  }
+  .heder__img{
+    margin-left: 153px;
+  }
+
+  .heder_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .heder__main_title {
+    color: #25468A;
+    font-family: Roboto;
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0;
+    /* text-align: left; */
+     /* margin-left: 50px; */
+    
+  }
+  .heder__main_h4 {
+    margin-bottom: 33px;
+  }
+  .heder__main_p {
+    width: 560px;
+    margin-bottom: 38px;
+  }
+  .heder__main_button {
+    background-color: #F7BA0E;
+    color: #3B4A6B;
+    padding: 15px 85px 15px 85px;
+    border-radius: 24px ;
+
+  }
+
+  .heder__main_button:hover{
+    background-color: #3B4A6B;
+    color: #F7BA0E;
+  }
+
+.button{
+width: 352px;
+height: 189px;
+border-radius: 8px;
+background-color: #1391ce;
+color: #FFFFFF;
+font-family: "Roboto" sans-serif;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.04em;
+text-align: center;
+border-color: #FFFFFF;
+justify-content: center;
+margin-left: 32px;
+margin-top: 190px;
+  }
+  
+  .button_hero{
+  margin-left: 160px;
+  width: 352px;
+height: 189px;
+border-radius: 8px;
+background-color: #1391ce;
+color: #FFFFFF;
+font-family: "Roboto" sans-serif;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.04em;
+text-align: center;
+border-color: #FFFFFF;
+justify-content: center;
+margin-top: 190px;
+  }
+  /* .main-buttons{
+  margin-left: 50px;
+} */
